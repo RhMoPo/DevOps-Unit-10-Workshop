@@ -7,7 +7,7 @@ services:
 variables:
   # REPLACE THIS, and set DOCKERHUB_TOKEN & AZURE_WEBHOOK in pipeline variables
   # Make sure that "Expand Variable" is **off** for the webhook, and that both secrets are masked
-  DOCKERHUB_USERNAME: corndeldevopscourse
+  DOCKERHUB_USERNAME: rhmopo
 
 deploy:
   stage: deploy
