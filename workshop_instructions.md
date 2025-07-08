@@ -13,7 +13,7 @@ requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://XX
 
 Sadly this order-processing-finance-package is a third party tool, so we'll need to investigate this issue from our end, and see if we can fix it, or if the problem needs to be raised with the supplier.
 
-The logstream includes a stack trace - the files and line numbers of what was being executed when the error occurred. Some of the stack trace will point to other packages' code, like the `requests` library, but one line of the stack trace points to your application code. Have a look at the source code and identify the line where the error is thrown.
+The logstream includes a stack trace - the files and line numbers of what was being executed when the error occurred. Some of the stack trace will point to other packages' code, like the `requests` library, but one line of the stack trace points to your application code. Have a look at the source code and identify the line where the error is thrown..
 
 <details><summary>Hint</summary>
 
